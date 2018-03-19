@@ -13,11 +13,11 @@ import UIKit
     public weak var delegate: PinCodeTextFieldDelegate?
     
     //MARK: Customizable from Interface Builder
-    @IBInspectable public var underlineWidth: CGFloat = 40
-    @IBInspectable public var underlineHSpacing: CGFloat = 10
-    @IBInspectable public var underlineVMargin: CGFloat = 0
+    @IBInspectable public var underlineWidth: CGFloat = 0
+    @IBInspectable public var underlineHSpacing: CGFloat = 0
+    @IBInspectable public var underlineVMargin: CGFloat = 10
     @IBInspectable public var characterLimit: Int = 5
-    @IBInspectable public var underlineHeight: CGFloat = 3
+    @IBInspectable public var underlineHeight: CGFloat = 2
     @IBInspectable public var placeholderText: String?
     @IBInspectable public var text: String? {
         didSet {
@@ -32,7 +32,7 @@ import UIKit
     }
     @IBInspectable public var textColor: UIColor = UIColor.clear 
     @IBInspectable public var placeholderColor: UIColor = UIColor.lightGray
-    @IBInspectable public var underlineColor: UIColor = UIColor.darkGray
+    @IBInspectable public var underlineColor: UIColor = UIColor.lightGray
     @IBInspectable public var updatedUnderlineColor: UIColor = UIColor.clear
     @IBInspectable public var secureText: Bool = false
     @IBInspectable public var needToUpdateUnderlines: Bool = true
