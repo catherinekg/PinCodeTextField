@@ -16,7 +16,7 @@ import UIKit
     @IBInspectable public var underlineWidth: CGFloat = 0
     @IBInspectable public var underlineHSpacing: CGFloat = 0
     @IBInspectable public var underlineVMargin: CGFloat = 10
-    @IBInspectable public var characterLimit: Int = 5
+    @IBInspectable public var characterLimit: Int = 4
     @IBInspectable public var underlineHeight: CGFloat = 2
     @IBInspectable public var placeholderText: String?
     @IBInspectable public var text: String? {
